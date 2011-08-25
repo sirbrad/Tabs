@@ -4,10 +4,10 @@
 <html dir="ltr" lang="en">
 <head>
 	<title>TABS</title>
-   <script src="Assets/Scripts/modernizr-1.6.min.js"></script>
+   <script src="modernizr-1.6.min.js"></script>
    <meta charset="utf-8">
    <meta name="author" content="Bradley Few" />
-   <link rel="stylesheet" href="Assets/Styles/tabs.css" />
+   <link rel="stylesheet" href="tabs.css" />
 </head>
 <?php flush(); ?>
 <body>
@@ -42,13 +42,8 @@
       	document.getElementById('tabs').style.display = 'none';
       </script>	
    </div>
-   <!-- LABjs allows loading other scripts in parallel (without blocking) by inserting script tags dynamically -->
-   <script src="Assets/Scripts/LAB-min.js"></script>
-   <script>
-		$LAB
-		.setOptions({ AlwaysPreserveOrder:true, BasePath:'Assets/Scripts/' })
-			.script('jquery.js')
-			.script('library.js')
+   <script src="jquery.js"></script>
+   <script src="tabs.js"></script>
    </script>
 </body>
 </html>

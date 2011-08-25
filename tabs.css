@@ -213,6 +213,7 @@ div.hide {
 }
 
 #tabs p {
+	font-family:"Palatino Linotype", "Book Antiqua", Palatino, serif;
 	font-size:150%;
 	font-weight:bold;	
 }
