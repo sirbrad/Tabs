@@ -1,13 +1,3 @@
-/*
-	Author		: Storm Creative
-	Document		: Layout
-	Created on	: dd-mm-yyyy
-	Description	: Determines the design and layout of the website.
-	Swatches		:
-		#58585A = Black
-		#F16724 = Orange
-*/
-
 /* 1. Generic Browser Defaults
 	2. Styles for Image Replacement Technique
 	3. General Layout
@@ -213,7 +203,6 @@ div.hide {
 }
 
 #tabs p {
-	font-family:"Palatino Linotype", "Book Antiqua", Palatino, serif;
 	font-size:150%;
 	font-weight:bold;	
 }
