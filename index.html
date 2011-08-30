@@ -3,9 +3,9 @@
 <!--[if IE]><![endif]-->
 <html dir="ltr" lang="en">
 <head>
+	<meta charset="utf-8">
 	<title>TABS</title>
    <script src="modernizr-1.6.min.js"></script>
-   <meta charset="utf-8">
    <meta name="author" content="Bradley Few" />
    <link rel="stylesheet" href="tabs.css" />
 </head>
@@ -38,11 +38,10 @@
          </div>
       </div>
       <script>
-      	document.getElementById('tabs').style.display = 'none';
+      	document.getElementById('tabs').className = 'initialHide';
       </script>	
    </div>
    <script src="jquery.js"></script>
    <script src="tabs.js"></script>
-   </script>
 </body>
 </html>
